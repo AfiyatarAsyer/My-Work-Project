@@ -1,0 +1,1704 @@
+<mxfile>
+    <diagram id="-2qmMH90dq2cSvhwEPfH" name="Page-1">
+        <mxGraphModel dx="586" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="lihat data nilai siswa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="149.50000000000023" y="739.9411764705883" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="90" y="740"/>
+                            <mxPoint x="90" y="740"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="Orang tua" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="650" width="20" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Boundary : Lihat Nilai Siswa" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="650" width="100" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="4">
+                    <mxGeometry x="45" y="90" width="10" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="getID()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7" target="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="430" y="780"/>
+                            <mxPoint x="430" y="780"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="Controller : Managemen Data Transkip Nilai" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="650" width="100" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7">
+                    <mxGeometry x="45" y="110" width="10" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Entity : Transkip nilai" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="650" width="100" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9">
+                    <mxGeometry x="45" y="130" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="viewID (data transkip nilai)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="250" y="760"/>
+                            <mxPoint x="250" y="760"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="data transkip nilai" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="9" target="7">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="330" y="960" as="sourcePoint"/>
+                        <mxPoint x="490" y="960" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="440" y="820"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="data transkip nilai" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="8" target="5">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="180" y="960" as="sourcePoint"/>
+                        <mxPoint x="340" y="960" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="240" y="844"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="Orang tua - Lihat nilai siswa" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="610" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="lihat data nilai siswa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="16" target="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="149.50000000000023" y="1069.9411764705883" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="90" y="1070"/>
+                            <mxPoint x="90" y="1070"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="Siswa" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="980" width="20" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Boundary : Lihat Nilai Siswa" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="980" width="100" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="17">
+                    <mxGeometry x="45" y="90" width="10" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="getID()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="20" target="22">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="430" y="1110"/>
+                            <mxPoint x="430" y="1110"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="Controller : Managemen Data Transkip Nilai" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="980" width="100" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="20">
+                    <mxGeometry x="45" y="110" width="10" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Entity : Transkip nilai" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="980" width="100" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="22">
+                    <mxGeometry x="45" y="130" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="viewID (data transkip nilai)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18" target="20">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="250" y="1090"/>
+                            <mxPoint x="250" y="1090"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="data transkip nilai" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="22" target="20">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="330" y="1290" as="sourcePoint"/>
+                        <mxPoint x="490" y="1290" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="440" y="1150"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="data transkip nilai" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="21" target="18">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="180" y="1290" as="sourcePoint"/>
+                        <mxPoint x="340" y="1290" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="240" y="1174"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="Siswa - Lihat nilai siswa" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="940" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Siswa" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="1330" width="20" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Boundary : Form testimoni" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="1330" width="100" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="29">
+                    <mxGeometry x="335" y="540" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="hapus testimoni" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="29">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="50.430000000000064" y="520" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-29.069999999999993" y="520"/>
+                            <mxPoint x="-29.069999999999993" y="520"/>
+                        </Array>
+                        <mxPoint x="-79.9985714285715" y="520" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="29">
+                    <mxGeometry x="45.93000000000001" y="520" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="29">
+                    <mxGeometry x="485.92999999999995" y="560" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="input perintah hapus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="29" source="32" target="30">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="130.93" y="550"/>
+                            <mxPoint x="130.93" y="550"/>
+                        </Array>
+                        <mxPoint x="190.93" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="get perintah hapus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="29" source="30" target="33">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="370" y="570"/>
+                            <mxPoint x="370" y="570"/>
+                        </Array>
+                        <mxPoint x="205.93" y="560" as="sourcePoint"/>
+                        <mxPoint x="345.93000000000006" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="Controller : Managemen Data testimoni" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="1330" width="100" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Siswa - Mengisi Testimoni" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="1290" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Boundary : Tambah atau edit Data Testimoni" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="1330" width="100" height="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Boundary : Hapus Data Testimoni" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="1330" width="100" height="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="335" y="1580" width="10" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="mengisi testimoni" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="189.5" y="1560" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="110" y="1560"/>
+                            <mxPoint x="110" y="1560"/>
+                        </Array>
+                        <mxPoint x="59.07142857142844" y="1560" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="185" y="1560" width="10" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="update data testimoni" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="44" target="61">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="790" y="1610"/>
+                            <mxPoint x="790" y="1610"/>
+                        </Array>
+                        <mxPoint x="629.0714285714284" y="1600.0000000000002" as="sourcePoint"/>
+                        <mxPoint x="789.5" y="1610" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="625" y="1600" width="10" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="925" y="1600" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="input data testimoni baru" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="42" target="40">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="270" y="1590"/>
+                            <mxPoint x="270" y="1590"/>
+                        </Array>
+                        <mxPoint x="330" y="1580" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="data testimoni" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="61">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="789.5" y="1640" as="sourcePoint"/>
+                        <mxPoint x="629.0714285714284" y="1640" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="720" y="1640"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="data testimoni" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="44" target="40">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="200" y="1780" as="sourcePoint"/>
+                        <mxPoint x="360" y="1780" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="450" y="1664"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="insert (data testimoni)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="44">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="560" y="1600"/>
+                            <mxPoint x="560" y="1600"/>
+                        </Array>
+                        <mxPoint x="345" y="1600" as="sourcePoint"/>
+                        <mxPoint x="485" y="1600" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="335" y="1720" width="10" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="edit testimoni" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="189.5" y="1700" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="110" y="1700"/>
+                            <mxPoint x="110" y="1700"/>
+                        </Array>
+                        <mxPoint x="59.07142857142844" y="1700" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="185" y="1700" width="10" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="update data testimoni" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="54" target="61">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="700" y="1750"/>
+                            <mxPoint x="700" y="1750"/>
+                        </Array>
+                        <mxPoint x="629.0714285714284" y="1740.0000000000002" as="sourcePoint"/>
+                        <mxPoint x="920" y="1740" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="625" y="1740" width="10" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="925" y="1740" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="input (data testimoni)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="52" target="50">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="270" y="1730"/>
+                            <mxPoint x="270" y="1730"/>
+                        </Array>
+                        <mxPoint x="330" y="1720" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="data testimoni" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="61">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="789.5" y="1780" as="sourcePoint"/>
+                        <mxPoint x="629.0714285714284" y="1780" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="720" y="1780"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="data testimoni" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="54" target="50">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="200" y="1920" as="sourcePoint"/>
+                        <mxPoint x="360" y="1920" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="450" y="1804"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="insert (data testimoni)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="560" y="1740"/>
+                            <mxPoint x="560" y="1740"/>
+                        </Array>
+                        <mxPoint x="345" y="1740" as="sourcePoint"/>
+                        <mxPoint x="485" y="1740" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="Controller : Managemen Data guru" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="1330" width="100" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="Entity : Testimoni" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="1330" width="100" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="Entity : Guru" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="1020" y="1330" width="100" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="335" y="1440" width="10" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="pilih guru mapel" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="189.5" y="1420" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="110" y="1420"/>
+                            <mxPoint x="110" y="1420"/>
+                        </Array>
+                        <mxPoint x="59.07142857142844" y="1420" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="185" y="1420" width="10" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="getID(guru)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="67">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="945" y="1475"/>
+                            <mxPoint x="945" y="1475"/>
+                        </Array>
+                        <mxPoint x="914.0714285714284" y="1465.0000000000002" as="sourcePoint"/>
+                        <mxPoint x="1074.5" y="1475" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="67" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="785" y="1450" width="10" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1070" y="1465" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="pilih guru&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="65" target="63">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="270" y="1450"/>
+                            <mxPoint x="270" y="1450"/>
+                        </Array>
+                        <mxPoint x="330" y="1440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" value="data guru" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" target="60">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1074.5" y="1505" as="sourcePoint"/>
+                        <mxPoint x="914.0714285714282" y="1505" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1005" y="1505"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" value="data guru" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="67">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="200" y="1640" as="sourcePoint"/>
+                        <mxPoint x="340" y="1524" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="450" y="1524"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" value="lihat data guru" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="67">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="560" y="1460"/>
+                            <mxPoint x="560" y="1460"/>
+                        </Array>
+                        <mxPoint x="345" y="1460" as="sourcePoint"/>
+                        <mxPoint x="485" y="1460" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="925" y="1910" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="hapus data testimoni" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="33" target="61">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="870" y="1910"/>
+                            <mxPoint x="870" y="1910"/>
+                        </Array>
+                        <mxPoint x="630.0014285714285" y="1890.0000000000002" as="sourcePoint"/>
+                        <mxPoint x="789.5" y="1930" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="75" value="Guru mapel" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="2120" width="20" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="Boundary : input Nilai" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="2120" width="100" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="76">
+                    <mxGeometry x="335" y="540" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="hapus&amp;nbsp; nilai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="76">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="50.430000000000064" y="520" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-29.069999999999993" y="520"/>
+                            <mxPoint x="-29.069999999999993" y="520"/>
+                        </Array>
+                        <mxPoint x="-79.9985714285715" y="520" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="79" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="76">
+                    <mxGeometry x="45.93000000000001" y="520" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="76">
+                    <mxGeometry x="485.92999999999995" y="560" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="input perintah hapus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="76" source="79" target="77">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="130.93" y="550"/>
+                            <mxPoint x="130.93" y="550"/>
+                        </Array>
+                        <mxPoint x="190.93" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="82" value="get perintah hapus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="76" source="77" target="80">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="370" y="570"/>
+                            <mxPoint x="370" y="570"/>
+                        </Array>
+                        <mxPoint x="205.93" y="560" as="sourcePoint"/>
+                        <mxPoint x="345.93000000000006" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="83" value="Controller : Managemen Data Transkip Nilai" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="2120" width="100" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="guru mapel - managemen nilai siswa" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="2080" width="210" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="Boundary : Tambah atau edit Data Nilai" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="2120" width="100" height="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="Boundary : Hapus Data Nilai" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="2120" width="100" height="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="2370" width="10" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="mengisi Nilai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="209.5" y="2350" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="130" y="2350"/>
+                            <mxPoint x="130" y="2350"/>
+                        </Array>
+                        <mxPoint x="79.07142857142844" y="2350" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="89" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="2350" width="10" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="update data nilai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="91" target="108">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="810" y="2400"/>
+                            <mxPoint x="810" y="2400"/>
+                        </Array>
+                        <mxPoint x="649.0714285714284" y="2390" as="sourcePoint"/>
+                        <mxPoint x="809.5" y="2400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="91" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="645" y="2390" width="10" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="945" y="2390" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="input data nilai baru" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="89" target="87">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="290" y="2380"/>
+                            <mxPoint x="290" y="2380"/>
+                        </Array>
+                        <mxPoint x="350" y="2370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="94" value="data transkip nilai" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="108">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="809.5" y="2430" as="sourcePoint"/>
+                        <mxPoint x="649.0714285714284" y="2430" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="740" y="2430"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="95" value="data transkip nilai" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="91" target="87">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="220" y="2570" as="sourcePoint"/>
+                        <mxPoint x="380" y="2570" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="470" y="2454"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="96" value="insert (data transkip nilai)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="91">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="580" y="2390"/>
+                            <mxPoint x="580" y="2390"/>
+                        </Array>
+                        <mxPoint x="365" y="2390" as="sourcePoint"/>
+                        <mxPoint x="505" y="2390" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="97" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="2510" width="10" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="edit nilai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="209.5" y="2490" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="130" y="2490"/>
+                            <mxPoint x="130" y="2490"/>
+                        </Array>
+                        <mxPoint x="79.07142857142844" y="2490" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="99" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="2490" width="10" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="update data transkip nilai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="101" target="108">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="720" y="2540"/>
+                            <mxPoint x="720" y="2540"/>
+                        </Array>
+                        <mxPoint x="649.0714285714284" y="2530" as="sourcePoint"/>
+                        <mxPoint x="940" y="2530" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="101" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="645" y="2530" width="10" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="945" y="2530" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="input (data transkip nilai)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="99" target="97">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="290" y="2520"/>
+                            <mxPoint x="290" y="2520"/>
+                        </Array>
+                        <mxPoint x="350" y="2510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="104" value="data transkip nilai" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="108">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="809.5" y="2570" as="sourcePoint"/>
+                        <mxPoint x="649.0714285714284" y="2570" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="740" y="2570"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="105" value="data data transkip nilai" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="101" target="97">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="220" y="2710" as="sourcePoint"/>
+                        <mxPoint x="380" y="2710" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="470" y="2594"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="106" value="insert (data transkip nilai)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="101">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="580" y="2530"/>
+                            <mxPoint x="580" y="2530"/>
+                        </Array>
+                        <mxPoint x="365" y="2530" as="sourcePoint"/>
+                        <mxPoint x="505" y="2530" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="107" value="Controller : Managemen Data Siswa" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="760" y="2120" width="100" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="Entity : Transkip Nilai" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="900" y="2120" width="100" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="Entity : siswa" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="1040" y="2120" width="100" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="2230" width="10" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="pilih siswa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="209.5" y="2210" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="130" y="2210"/>
+                            <mxPoint x="130" y="2210"/>
+                        </Array>
+                        <mxPoint x="79.07142857142844" y="2210" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="112" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="2210" width="10" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="getID(siswa)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="114">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="965" y="2265"/>
+                            <mxPoint x="965" y="2265"/>
+                        </Array>
+                        <mxPoint x="934.0714285714284" y="2255" as="sourcePoint"/>
+                        <mxPoint x="1094.5" y="2265" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="114" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="805" y="2240" width="10" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1085" y="2257.5" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="pilih siswa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="112" target="110">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="290" y="2240"/>
+                            <mxPoint x="290" y="2240"/>
+                        </Array>
+                        <mxPoint x="350" y="2230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="117" value="data siswa" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" target="107">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1094.5" y="2295" as="sourcePoint"/>
+                        <mxPoint x="934.0714285714282" y="2295" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1025" y="2295"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="118" value="data siswa" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="114">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="220" y="2430" as="sourcePoint"/>
+                        <mxPoint x="360" y="2314" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="470" y="2314"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="119" value="lihat data siswa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="114">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="580" y="2250"/>
+                            <mxPoint x="580" y="2250"/>
+                        </Array>
+                        <mxPoint x="365" y="2250" as="sourcePoint"/>
+                        <mxPoint x="505" y="2250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="120" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="945" y="2700" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="hapus data transkip nilai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="80" target="108">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="890" y="2700"/>
+                            <mxPoint x="890" y="2700"/>
+                        </Array>
+                        <mxPoint x="650.0014285714285" y="2680" as="sourcePoint"/>
+                        <mxPoint x="809.5" y="2720" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="122" value="Wali kelas" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="2910" width="20" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="Boundary : Kirim Nilai" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="2910" width="100" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="123">
+                    <mxGeometry x="335" y="540" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" value="hapus&amp;nbsp; nilai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="123">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="50.430000000000064" y="520" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-29.069999999999993" y="520"/>
+                            <mxPoint x="-29.069999999999993" y="520"/>
+                        </Array>
+                        <mxPoint x="-79.9985714285715" y="520" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="126" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="123">
+                    <mxGeometry x="45.93000000000001" y="520" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="123">
+                    <mxGeometry x="485.92999999999995" y="560" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="input perintah hapus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="123" source="126" target="124">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="130.93" y="550"/>
+                            <mxPoint x="130.93" y="550"/>
+                        </Array>
+                        <mxPoint x="190.93" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="129" value="get perintah hapus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="123" source="124" target="127">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="370" y="570"/>
+                            <mxPoint x="370" y="570"/>
+                        </Array>
+                        <mxPoint x="205.93" y="560" as="sourcePoint"/>
+                        <mxPoint x="345.93000000000006" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="130" value="Controller : Managemen Data Transkip Nilai" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="2910" width="100" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="131" value="wali kelas - managemen nilai siswa" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="45" y="2870" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="132" value="Boundary : Tambah atau edit Data Nilai" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="2910" width="100" height="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" value="Boundary : Hapus Data Nilai" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="2910" width="100" height="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="134" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="3160" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" value="kirim nilai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="219.5" y="3140" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="140" y="3140"/>
+                            <mxPoint x="140" y="3140"/>
+                        </Array>
+                        <mxPoint x="89.07142857142844" y="3140" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="136" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="215" y="3140" width="10" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="kirim data transkip nilai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="138" target="153">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="820" y="3190"/>
+                            <mxPoint x="820" y="3190"/>
+                        </Array>
+                        <mxPoint x="659.0714285714284" y="3180" as="sourcePoint"/>
+                        <mxPoint x="819.5" y="3190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="138" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="655" y="3180" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="955" y="3180" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="input perintah kirim" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="136" target="134">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="300" y="3170"/>
+                            <mxPoint x="300" y="3170"/>
+                        </Array>
+                        <mxPoint x="360" y="3160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="141" value="get perintah kirim" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="138">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="590" y="3180"/>
+                            <mxPoint x="590" y="3180"/>
+                        </Array>
+                        <mxPoint x="375" y="3180" as="sourcePoint"/>
+                        <mxPoint x="515" y="3180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="142" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="3300" width="10" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" value="edit nilai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="219.5" y="3280" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="140" y="3280"/>
+                            <mxPoint x="140" y="3280"/>
+                        </Array>
+                        <mxPoint x="89.07142857142844" y="3280" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="144" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="215" y="3280" width="10" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="update data transkip nilai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="146" target="153">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="730" y="3330"/>
+                            <mxPoint x="730" y="3330"/>
+                        </Array>
+                        <mxPoint x="659.0714285714284" y="3320" as="sourcePoint"/>
+                        <mxPoint x="950" y="3320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="146" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="655" y="3320" width="10" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="147" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="955" y="3320" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="148" value="input (data transkip nilai)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="144" target="142">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="300" y="3310"/>
+                            <mxPoint x="300" y="3310"/>
+                        </Array>
+                        <mxPoint x="360" y="3300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="149" value="data transkip nilai" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="153">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="819.5" y="3360" as="sourcePoint"/>
+                        <mxPoint x="659.0714285714284" y="3360" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="750" y="3360"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="150" value="data data transkip nilai" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="146" target="142">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="230" y="3500" as="sourcePoint"/>
+                        <mxPoint x="390" y="3500" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="480" y="3384"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="151" value="insert (data transkip nilai)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="146">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="590" y="3320"/>
+                            <mxPoint x="590" y="3320"/>
+                        </Array>
+                        <mxPoint x="375" y="3320" as="sourcePoint"/>
+                        <mxPoint x="515" y="3320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="152" value="Controller : Managemen Data Siswa" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="770" y="2910" width="100" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" value="Entity : Transkip Nilai" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="910" y="2910" width="100" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="154" value="Entity : siswa" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="1050" y="2910" width="100" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="155" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="3020" width="10" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="pilih siswa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="219.5" y="3000" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="140" y="3000"/>
+                            <mxPoint x="140" y="3000"/>
+                        </Array>
+                        <mxPoint x="89.07142857142844" y="3000" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="157" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="215" y="3000" width="10" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" value="getID(siswa)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="159">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="975" y="3055"/>
+                            <mxPoint x="975" y="3055"/>
+                        </Array>
+                        <mxPoint x="944.0714285714284" y="3045" as="sourcePoint"/>
+                        <mxPoint x="1104.5" y="3055" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="159" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="815" y="3030" width="10" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="160" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1095" y="3047.5" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="161" value="pilih siswa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="157" target="155">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="300" y="3030"/>
+                            <mxPoint x="300" y="3030"/>
+                        </Array>
+                        <mxPoint x="360" y="3020" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="162" value="data siswa" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" target="152">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1104.5" y="3085" as="sourcePoint"/>
+                        <mxPoint x="944.0714285714282" y="3085" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1035" y="3085"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="163" value="data siswa" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="159">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="230" y="3220" as="sourcePoint"/>
+                        <mxPoint x="370" y="3103.999999999999" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="480" y="3104"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="164" value="lihat data siswa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="159">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="590" y="3040"/>
+                            <mxPoint x="590" y="3040"/>
+                        </Array>
+                        <mxPoint x="375" y="3040" as="sourcePoint"/>
+                        <mxPoint x="515" y="3040" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="165" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="955" y="3490" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" value="hapus data transkip nilai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="127" target="153">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="900" y="3490"/>
+                            <mxPoint x="900" y="3490"/>
+                        </Array>
+                        <mxPoint x="660.0014285714285" y="3470" as="sourcePoint"/>
+                        <mxPoint x="819.5" y="3510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="167" value="Lihat data&amp;nbsp;&lt;span style=&quot;font-size: 12px&quot;&gt;guru&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="168" target="169">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1304.5000000000002" y="149.9411764705883" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1245" y="150"/>
+                            <mxPoint x="1245" y="150"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="168" value="Operator" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="1185" y="60" width="20" height="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="169" value="Boundary : Form data&amp;nbsp;&lt;span&gt;guru&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="1275" y="60" width="100" height="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="170" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="169">
+                    <mxGeometry x="45" y="90" width="10" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="171" value="getAll()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="172" target="174">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1845" y="190"/>
+                            <mxPoint x="1845" y="190"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="172" value="Controller : Managemen Data&amp;nbsp;&lt;span&gt;guru&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="1715" y="60" width="100" height="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="173" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="172">
+                    <mxGeometry x="45" y="110" width="10" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="174" value="Entity :&amp;nbsp;&lt;span&gt;guru&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="1875" y="60" width="100" height="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="174">
+                    <mxGeometry x="45" y="130" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="176" value="viewAll (data&amp;nbsp;&lt;span style=&quot;font-size: 12px&quot;&gt;guru&lt;/span&gt;)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="170" target="172">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1405" y="170"/>
+                            <mxPoint x="1405" y="170"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="177" value="data&amp;nbsp;&lt;span style=&quot;font-size: 12px&quot;&gt;guru&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="174" target="172">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1745" y="370" as="sourcePoint"/>
+                        <mxPoint x="1905" y="370" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1855" y="230"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="178" value="semua data&amp;nbsp;&lt;span style=&quot;font-size: 12px&quot;&gt;guru&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="173" target="170">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1335" y="370" as="sourcePoint"/>
+                        <mxPoint x="1495" y="370" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1395" y="254"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="179" value="Operator - Managemen data guru" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="1180" y="20" width="190" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="180" value="Boundary : Tambah atau edit Data&amp;nbsp;&lt;span&gt;guru&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="1425" y="60" width="100" height="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="181" value="Boundary : Hapus Data&amp;nbsp;&lt;span&gt;guru&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="1565" y="60" width="100" height="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="182" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1470" y="460" width="10" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" value="cari data&amp;nbsp;&lt;span style=&quot;font-size: 12px&quot;&gt;guru&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="168" target="184">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1304.5000000000002" y="149.9411764705883" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1245" y="290"/>
+                            <mxPoint x="1245" y="290"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="184" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1320" y="290" width="10" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="185" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1760" y="310" width="10" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="186" value="cari (id_&lt;span style=&quot;font-size: 12px&quot;&gt;guru&lt;/span&gt;)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="184" target="172">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1304.5000000000002" y="149.9411764705883" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1445" y="310"/>
+                            <mxPoint x="1445" y="310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="187" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1920" y="325" width="10" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="188" value="get (id_&lt;span style=&quot;font-size: 12px&quot;&gt;guru)&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="172" target="174">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1845" y="330"/>
+                            <mxPoint x="1845" y="330"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="189" value="detail data&amp;nbsp;&lt;span style=&quot;font-size: 12px&quot;&gt;guru&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="174" target="172">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1924.5000000000002" y="230" as="sourcePoint"/>
+                        <mxPoint x="1764.0714285714287" y="230" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1855" y="370"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="190" value="detail data&amp;nbsp;&lt;span style=&quot;font-size: 12px&quot;&gt;guru&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="185" target="169">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1435" y="360" as="sourcePoint"/>
+                        <mxPoint x="1274.5714285714284" y="360" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1365" y="390"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="191" value="Mengisi data&amp;nbsp;&lt;span style=&quot;font-size: 12px&quot;&gt;guru&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1324.5" y="440" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1245" y="440"/>
+                            <mxPoint x="1245" y="440"/>
+                        </Array>
+                        <mxPoint x="1194.0714285714284" y="440" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="192" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1320" y="440" width="10" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="193" value="update data&amp;nbsp;&lt;span style=&quot;font-size: 12px&quot;&gt;guru&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="194" target="174">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1795" y="490"/>
+                            <mxPoint x="1795" y="490"/>
+                        </Array>
+                        <mxPoint x="1764.0714285714284" y="480" as="sourcePoint"/>
+                        <mxPoint x="1924.5" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="194" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1760" y="480" width="10" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="195" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1920" y="480" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="196" value="input data&amp;nbsp;&lt;span style=&quot;font-size: 12px&quot;&gt;guru&lt;/span&gt;&amp;nbsp;baru" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="192" target="182">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1405" y="470"/>
+                            <mxPoint x="1405" y="470"/>
+                        </Array>
+                        <mxPoint x="1465" y="460" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="197" value="data&amp;nbsp;&lt;span style=&quot;font-size: 12px&quot;&gt;guru&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1924.5" y="520" as="sourcePoint"/>
+                        <mxPoint x="1764.0714285714284" y="520" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1855" y="520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="198" value="data&amp;nbsp;&lt;span style=&quot;font-size: 12px&quot;&gt;guru&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="194" target="182">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1335" y="660" as="sourcePoint"/>
+                        <mxPoint x="1495" y="660" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1585" y="544"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="199" value="insert (data&amp;nbsp;&lt;span style=&quot;font-size: 12px&quot;&gt;guru&lt;/span&gt;)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="194">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1695" y="480"/>
+                            <mxPoint x="1695" y="480"/>
+                        </Array>
+                        <mxPoint x="1480" y="480" as="sourcePoint"/>
+                        <mxPoint x="1620" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="200" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1470" y="600" width="10" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="201" value="Edit data&amp;nbsp;&lt;span style=&quot;font-size: 12px&quot;&gt;guru&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1324.5" y="580" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1245" y="580"/>
+                            <mxPoint x="1245" y="580"/>
+                        </Array>
+                        <mxPoint x="1194.0714285714284" y="580" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="202" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1320" y="580" width="10" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="203" value="update data&amp;nbsp;&lt;span style=&quot;font-size: 12px&quot;&gt;guru&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="204">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1795" y="630"/>
+                            <mxPoint x="1795" y="630"/>
+                        </Array>
+                        <mxPoint x="1764.0714285714284" y="620" as="sourcePoint"/>
+                        <mxPoint x="1924.5" y="630" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="204" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1760" y="620" width="10" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="205" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1920" y="620" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="206" value="input (data&amp;nbsp;&lt;span style=&quot;font-size: 12px&quot;&gt;guru&lt;/span&gt;)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="202" target="200">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1405" y="610"/>
+                            <mxPoint x="1405" y="610"/>
+                        </Array>
+                        <mxPoint x="1465" y="600" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="207" value="data&amp;nbsp;&lt;span style=&quot;font-size: 12px&quot;&gt;guru&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1924.5" y="660" as="sourcePoint"/>
+                        <mxPoint x="1764.0714285714284" y="660" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1855" y="660"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="208" value="data&amp;nbsp;&lt;span style=&quot;font-size: 12px&quot;&gt;guru&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="204" target="200">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1335" y="800" as="sourcePoint"/>
+                        <mxPoint x="1495" y="800" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1585" y="684"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="209" value="insert (data&amp;nbsp;&lt;span style=&quot;font-size: 12px&quot;&gt;guru&lt;/span&gt;)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="204">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1695" y="620"/>
+                            <mxPoint x="1695" y="620"/>
+                        </Array>
+                        <mxPoint x="1480" y="620" as="sourcePoint"/>
+                        <mxPoint x="1620" y="620" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="210" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1610" y="750" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="211" value="hapus data&amp;nbsp;&lt;span style=&quot;font-size: 12px&quot;&gt;guru&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1325.4299999999994" y="730" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1245.93" y="730"/>
+                            <mxPoint x="1245.93" y="730"/>
+                        </Array>
+                        <mxPoint x="1195.0014285714287" y="730" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="212" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1320.93" y="730" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="213" value="hapus data&amp;nbsp;&lt;span style=&quot;font-size: 12px&quot;&gt;guru&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="214" target="174">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1845" y="810"/>
+                            <mxPoint x="1845" y="810"/>
+                        </Array>
+                        <mxPoint x="1765.0014285714285" y="770" as="sourcePoint"/>
+                        <mxPoint x="1925.43" y="780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="214" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1760.9299999999998" y="770" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="215" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1920" y="800" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="216" value="input perintah hapus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="212" target="210">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1405.93" y="760"/>
+                            <mxPoint x="1405.93" y="760"/>
+                        </Array>
+                        <mxPoint x="1465.93" y="750" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="217" value="get perintah hapus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="210" target="214">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1645" y="780"/>
+                            <mxPoint x="1645" y="780"/>
+                        </Array>
+                        <mxPoint x="1480.93" y="770" as="sourcePoint"/>
+                        <mxPoint x="1620.93" y="770" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="218" value="Lihat data siswa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="219" target="220">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1314.5000000000002" y="1039.9411764705883" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1255" y="1040"/>
+                            <mxPoint x="1255" y="1040"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="219" value="Operator" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="1195" y="950" width="20" height="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="220" value="Boundary : Form data&amp;nbsp;&lt;span style=&quot;font-size: 11px&quot;&gt;siswa&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="1285" y="950" width="100" height="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="221" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="220">
+                    <mxGeometry x="45" y="90" width="10" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="222" value="getAll()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="223" target="225">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1855" y="1080"/>
+                            <mxPoint x="1855" y="1080"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="223" value="Controller : Managemen Data&amp;nbsp;&lt;span style=&quot;font-size: 11px&quot;&gt;siswa&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="1725" y="950" width="100" height="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="224" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="223">
+                    <mxGeometry x="45" y="110" width="10" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="225" value="Entity :&amp;nbsp;&lt;span style=&quot;font-size: 11px&quot;&gt;siswa&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="1885" y="950" width="100" height="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="226" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="225">
+                    <mxGeometry x="45" y="130" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="227" value="viewAll (data siswa)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="221" target="223">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1415" y="1060"/>
+                            <mxPoint x="1415" y="1060"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="228" value="data siswa" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="225" target="223">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1755" y="1260" as="sourcePoint"/>
+                        <mxPoint x="1915" y="1260" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1865" y="1120"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="229" value="semua data siswa" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="224" target="221">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1345" y="1260" as="sourcePoint"/>
+                        <mxPoint x="1505" y="1260" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1405" y="1144"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="230" value="Operator - Managemen data&amp;nbsp;&lt;span style=&quot;font-size: 11px&quot;&gt;siswa&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="1185" y="910" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="231" value="Boundary : Tambah atau edit Data&amp;nbsp;&lt;span style=&quot;font-size: 11px&quot;&gt;siswa&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="1435" y="950" width="100" height="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="232" value="Boundary : Hapus Data&amp;nbsp;&lt;span style=&quot;font-size: 11px&quot;&gt;siswa&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="1575" y="950" width="100" height="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="233" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1480" y="1350" width="10" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="234" value="cari data siswa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="219" target="235">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1314.5000000000002" y="1039.9411764705883" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1255" y="1180"/>
+                            <mxPoint x="1255" y="1180"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="235" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1330" y="1180" width="10" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="236" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1770" y="1200" width="10" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="237" value="cari (id_siswa)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="235" target="223">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1314.5000000000002" y="1039.9411764705883" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1455" y="1200"/>
+                            <mxPoint x="1455" y="1200"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="238" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1930" y="1215" width="10" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="239" value="get (id_siswa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="223" target="225">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1855" y="1220"/>
+                            <mxPoint x="1855" y="1220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="240" value="detail data siswa" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="225" target="223">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1934.5000000000002" y="1120" as="sourcePoint"/>
+                        <mxPoint x="1774.0714285714287" y="1120" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1865" y="1260"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="241" value="detail data siswa" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="236" target="220">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1445" y="1250" as="sourcePoint"/>
+                        <mxPoint x="1284.5714285714284" y="1250" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1375" y="1280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="242" value="Mengisi data siswa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1334.5" y="1330" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1255" y="1330"/>
+                            <mxPoint x="1255" y="1330"/>
+                        </Array>
+                        <mxPoint x="1204.0714285714284" y="1330" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="243" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1330" y="1330" width="10" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="244" value="update data siswa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="245" target="225">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1805" y="1380"/>
+                            <mxPoint x="1805" y="1380"/>
+                        </Array>
+                        <mxPoint x="1774.0714285714284" y="1370" as="sourcePoint"/>
+                        <mxPoint x="1934.5" y="1370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="245" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1770" y="1370" width="10" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="246" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1930" y="1370" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="247" value="input data siswa baru" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="243" target="233">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1415" y="1360"/>
+                            <mxPoint x="1415" y="1360"/>
+                        </Array>
+                        <mxPoint x="1475" y="1350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="248" value="data siswa" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1934.5" y="1410" as="sourcePoint"/>
+                        <mxPoint x="1774.0714285714284" y="1410" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1865" y="1410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="249" value="data siswa" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="245" target="233">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1345" y="1550" as="sourcePoint"/>
+                        <mxPoint x="1505" y="1550" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1595" y="1434"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="250" value="insert (data siswa)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="245">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1705" y="1370"/>
+                            <mxPoint x="1705" y="1370"/>
+                        </Array>
+                        <mxPoint x="1490" y="1370" as="sourcePoint"/>
+                        <mxPoint x="1630" y="1370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="251" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1480" y="1490" width="10" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="252" value="Edit data siswa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1334.5" y="1470" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1255" y="1470"/>
+                            <mxPoint x="1255" y="1470"/>
+                        </Array>
+                        <mxPoint x="1204.0714285714284" y="1470" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="253" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1330" y="1470" width="10" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="254" value="update data siswa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="255">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1805" y="1520"/>
+                            <mxPoint x="1805" y="1520"/>
+                        </Array>
+                        <mxPoint x="1774.0714285714284" y="1510" as="sourcePoint"/>
+                        <mxPoint x="1934.5" y="1520" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="255" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1770" y="1510" width="10" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="256" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1930" y="1510" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="257" value="input (data siswa)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="253" target="251">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1415" y="1500"/>
+                            <mxPoint x="1415" y="1500"/>
+                        </Array>
+                        <mxPoint x="1475" y="1490" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="258" value="data siswa" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1934.5" y="1550" as="sourcePoint"/>
+                        <mxPoint x="1774.0714285714284" y="1550" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1865" y="1550"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="259" value="data siswa" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="255" target="251">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1345" y="1690" as="sourcePoint"/>
+                        <mxPoint x="1505" y="1690" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1595" y="1574"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="260" value="insert (data siswa)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="255">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1705" y="1510"/>
+                            <mxPoint x="1705" y="1510"/>
+                        </Array>
+                        <mxPoint x="1490" y="1510" as="sourcePoint"/>
+                        <mxPoint x="1630" y="1510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="261" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1620" y="1640" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="262" value="hapus data siswa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1335.4299999999994" y="1620" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1255.93" y="1620"/>
+                            <mxPoint x="1255.93" y="1620"/>
+                        </Array>
+                        <mxPoint x="1205.0014285714287" y="1620" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="263" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1330.93" y="1620" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="264" value="hapus data siswa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="265" target="225">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1855" y="1700"/>
+                            <mxPoint x="1855" y="1700"/>
+                        </Array>
+                        <mxPoint x="1775.0014285714285" y="1660" as="sourcePoint"/>
+                        <mxPoint x="1935.43" y="1670" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="265" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1770.9299999999998" y="1660" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="266" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="1930" y="1690" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="267" value="input perintah hapus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="263" target="261">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1415.93" y="1650"/>
+                            <mxPoint x="1415.93" y="1650"/>
+                        </Array>
+                        <mxPoint x="1475.93" y="1640" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="268" value="get perintah hapus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="261" target="265">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1655" y="1670"/>
+                            <mxPoint x="1655" y="1670"/>
+                        </Array>
+                        <mxPoint x="1490.93" y="1660" as="sourcePoint"/>
+                        <mxPoint x="1630.93" y="1660" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="269" value="Melakukan login" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="270" target="271">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="169.50000000000023" y="159.94117647058818" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="110" y="160"/>
+                            <mxPoint x="110" y="160"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="270" value="User" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="70" width="20" height="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="271" value="Boundary : Form Login" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="70" width="100" height="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="272" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="271">
+                    <mxGeometry x="45" y="90" width="10" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="273" value="get user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="274" target="276">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="420" y="200"/>
+                            <mxPoint x="420" y="200"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="274" value="Controller : Managemen Data user" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="70" width="100" height="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="275" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="274">
+                    <mxGeometry x="45" y="90" width="10" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="276" value="Entity : user" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="70" width="100" height="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="277" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="276">
+                    <mxGeometry x="45" y="90" width="10" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="278" value="input form" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="272" target="274">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="270" y="180"/>
+                            <mxPoint x="270" y="180"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="279" value="true" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="276" target="274">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="320" y="380" as="sourcePoint"/>
+                        <mxPoint x="480" y="380" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="430" y="240"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="280" value="masuk halaman selanjutnya" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;exitX=-0.047;exitY=0.299;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="275" target="272">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="200" y="380" as="sourcePoint"/>
+                        <mxPoint x="360" y="380" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="260" y="264"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="281" value="if" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=55;height=20;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="210" width="450" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="282" value="Jika &#10;usernam &amp;&#10;password &#10;benar" style="text" vertex="1" parent="281">
+                    <mxGeometry width="100" height="20" relative="1" as="geometry">
+                        <mxPoint x="20" y="40" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="283" value="Jika&#10;usernam &amp;&#10;password&#10;salah" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;" vertex="1" parent="281">
+                    <mxGeometry y="150.00915697674418" width="450" height="11.999999999999996" as="geometry"/>
+                </mxCell>
+                <mxCell id="284" value="kembali ke form login" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;entryX=1.1;entryY=0.271;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="281">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="243.5" y="281.24999999999994" as="sourcePoint"/>
+                        <mxPoint x="100" y="281.24999999999994" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="285" value="false" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="281">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="410.17999999999995" y="194.99999999999983" as="sourcePoint"/>
+                        <mxPoint x="250.00352941176533" y="194.99999999999983" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="340.68" y="195"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="286" value="user - login" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="20" width="70" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
